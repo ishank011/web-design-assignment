@@ -1,0 +1,63 @@
+body
+{
+	background: #2980b9;
+}
+
+#back
+{
+	position: fixed;
+	top: 70px;
+	left: 0px;
+}
+
+input
+{
+	position: relative;
+	width: 150px;
+	height: 50px;
+	padding: 12px;
+	font-family: Raleway, sans-serif;
+	font-size: 20px;
+	color: #FFF;
+	background: #80b0fb;
+	cursor: pointer;
+	font-weight: 900;
+	border-radius: 10px;
+	border: none;
+	outline: none;
+}
+
+input:hover
+{
+	background: #2980b9;
+}
+
+#abt_us
+{
+	top: 170px;
+	left: 450px;
+}
+
+#algo
+{
+	top: 120px;
+	left: 750px;
+}
+
+h1
+{
+	position: relative;
+	text-align: center;
+	top: 150px;
+	font-family: Raleway, sans-serif;
+	font-size: 60px;
+}
+
+h2
+{
+	position: relative;
+	text-align: center;
+	top: 120px;
+	font-family: Raleway, sans-serif;
+	font-size: 40px;
+}

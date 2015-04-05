@@ -1,0 +1,85 @@
+#main
+{
+	position: fixed;
+	background-color: #298C4B;
+	height: 625px;
+	width: 600px;
+	top:20px;
+	left: 40px;
+}
+
+#i1
+{
+	position: fixed;
+	border: 5px solid #33AD5C;
+	top: 60px;
+	left: 90px;
+}
+
+#name
+{
+	position: fixed;
+	top: 20px;
+	left: 340px;
+	font-family: Raleway, sans-serif;
+	font-size: 70px;
+}
+
+#surname
+{
+	position: fixed;
+	top: 100px;
+	left: 340px;
+	font-family: Raleway, sans-serif;
+	font-size: 70px;
+}
+
+#courses
+{
+	left: 700px;
+}
+
+ul
+{
+	position: fixed;
+	top: 270px;
+	left: 50px;
+	font-family: Raleway, sans-serif;
+	font-size: 20px;
+}
+
+ul:first-child
+{
+	position: fixed;
+	left: 700px;
+	top: 25px;
+	font-family: Raleway, sans-serif;
+	font-size: 20px;
+}
+
+li
+{
+	padding-top: 10px;
+}
+
+center
+{
+	position: fixed;
+	top: 525px;
+	left: 150px;
+}
+
+center a
+{
+	padding:10px 20px 10px 20px;
+	text-decoration: none;
+	color:#eee;
+	background:#187dec;
+	border-radius:100px;
+	margin-left:20px
+
+}
+
+center a:nth-child(1){background:#d95333}
+center a:nth-child(2){background:#d31d1d}
+center a:nth-child(3){background:#395798}

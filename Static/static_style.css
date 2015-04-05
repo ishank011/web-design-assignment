@@ -1,0 +1,72 @@
+#back
+{
+	position: fixed;
+	top: 70px;
+	left: 0px;
+}
+
+h1
+{
+	position: relative;
+	text-align: center;
+	top: 80px;
+	font-family: Raleway, sans-serif;
+	font-size: 40px;
+}
+
+#i
+{
+	position: fixed;
+	top: 430px;
+	left: 200px;
+	font-family: Raleway, sans-serif;
+	font-size: 20px;
+}
+
+#ishank
+{
+	position: relative;
+	top: 120px;
+	left: 150px;
+}
+
+#a
+{
+	position: fixed;
+	top: 430px;
+	left: 620px;
+	font-family: Raleway, sans-serif;
+	font-size: 20px;
+}
+
+#akash
+{
+	position: relative;
+	top: 120px;
+	left: 350px;
+}
+
+#s
+{
+	position: fixed;
+	top: 430px;
+	left: 1010px;
+	font-family: Raleway, sans-serif;
+	font-size: 20px;
+}
+
+#shivendra
+{
+	position: relative;
+	top: 120px;
+	left: 550px;
+}
+
+.us
+{
+	border: 5px solid #80b0fb;
+}
+.us:hover
+{
+	border: 5px solid #2980b9;
+}

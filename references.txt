@@ -1,0 +1,22 @@
+.social-bar{margin:3em 0 -4em;text-align:center}.social-bar{padding:1.5em 0;text-align:center}.social-bar a{font-size:2em;display:inline-block;position:relative;z-index:3;color:#aaa}.social-bar a:before{content:' ';padding:.9em;background:#38d359;position:absolute;border-radius:100%;z-index:-1;left:-.4em;top:-.35em;-webkit-transition:all .3s ease;transition:all .3s ease;margin-top:-1em;opacity:0}.social-bar a+a{margin-left:1em}.social-bar a:hover{color:#fff}.social-bar a:hover:before{margin-top:0;opacity:1}.social-bar .social-email{top:-.05em}.social-bar .social-email:before{top:-.3em}
+
+.icon-facebook{font-family:cw;speak:none;font-style:normal;font-weight:400;font-variant:normal;text-transform:none;line-height:1;-webkit-font-smoothing:antialiased}.icon-facebook:before{content:"\e000"}
+
+<footer class="social-bar">
+	<a href="https://www.facebook.com/codewarriors" class="social-fb"><i class="icon-facebook"></i>
+	</a><a href="/cdn-cgi/l/email-protection#254e40534c4b65464a414008524457574c4a57560b4a5742" class="social-email"><i class="icon-envelop"></i></a>
+</footer>
+
+<a href="index.html" class="toptaker"> <img src="Images/toptaker.png"> </a>
+.toptaker
+{
+	position: fixed;
+	right: 0px;
+	bottom: 0px;
+	margin: 15px;
+}
+
+section.contact_section a{padding:10px;text-decoration:none;color:#eee;padding-left:20px;padding-right:20px;background:#187dec;border-radius:100px;margin-left:20px}
+section.contact_section a:nth-child(1){background:#d95333}
+section.contact_section a:nth-child(2){background:#d31d1d}
+section.contact_section a:nth-child(3){background:#395798}
