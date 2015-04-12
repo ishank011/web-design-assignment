@@ -1,7 +1,6 @@
 #main
 {
 	position: fixed;
-	background-color: #298C4B;
 	height: 625px;
 	width: 600px;
 	top:20px;
@@ -65,6 +64,7 @@ li
 center
 {
 	position: fixed;
+	font-family: Raleway, sans-serif;
 	top: 525px;
 	left: 150px;
 }

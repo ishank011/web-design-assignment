@@ -1,0 +1,51 @@
+<html lang="en">
+<head>
+    <title>Mean Calculation</title>
+    <link href='http://fonts.googleapis.com/css?family=Raleway:400,300' rel='stylesheet' type='text/css'>
+    <link rel="icon" href="static/icon.png" type="image/x-icon">
+</head>
+<style>
+html
+{
+    font-family: Raleway, sans-serif;
+}
+</style>
+<h1>Group: 10</h1>
+<h1>MEAN</h1>
+
+     </div>
+
+<form method="POST">
+<div style="font-family: Raleway, sans-serif;">
+Enter the numbers<br>
+(for eg: 1,4,5)<br><br>
+</div>
+    <input type="text" name="first" value=""><br>
+{#    <select name="second">#}
+{#        <option value="1" selected>1</option>#}
+{#        <option value="2">2</option>#}
+{#        <option value="3">3</option>#}
+{#        <option value="4">4</option>#}
+{#        <option value="5">5</option>#}
+{#    </select> #}
+    <br>
+    <input type="submit" value="Find the Mean!">
+    {% if result %}
+    <p>
+        <label name='result'><b>Answer is: {{ result }}</b></label>
+    </p>
+    {% endif %}
+    {% if error %}
+    <p>
+    <label name="error">{{ error }}</label>
+    </p>
+    {% endif %}
+</form>
+<body bgcolor="#2980b9">
+
+{#    {%   for i in range(5) %}#}
+{#        <label name='result'>Answer is: {{ result }}<br></label>#}
+{#    {% endfor %}#}
+
+</body>
+</html>
