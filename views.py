@@ -53,7 +53,7 @@ def hello_world():
         return render_template('get.html')
     elif request.method=='POST':
         points=request.form['points']
-        return render_template('post.html',source='/plot/'+points,old_points=points)
+        return render_template('post.html',source='/plot/'+points)
     else:
         return 'Invalid Request'
 
@@ -88,7 +88,7 @@ def plot(points):
         sub.plot(X1,Y)
 
     Y=P.polyval(X1,b)
-    Y1=P.polyval(np.arange(min(X),max(X)+0.1,0.1),b)
+    Y1=P.polyval(np.arange(min(X)-0.1,max(X)+0.1,0.1),b)
     interpol_obj=sub.plot(X1,Y,'k',linewidth=2)
     sub.plot(X,F,'ro',markersize=8)
 
