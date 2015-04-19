@@ -20,22 +20,12 @@ html
 <h1>Group: 10</h1>
 <h1>MEAN</h1>
 
-     </div>
-
 <form method="POST">
 <div style="font-family: Raleway, sans-serif;">
 Enter the numbers<br>
 (for eg: 1,4,5)<br><br>
 </div>
-    <input type="text" name="first" value=""><br>
-{#    <select name="second">#}
-{#        <option value="1" selected>1</option>#}
-{#        <option value="2">2</option>#}
-{#        <option value="3">3</option>#}
-{#        <option value="4">4</option>#}
-{#        <option value="5">5</option>#}
-{#    </select> #}
-    <br>
+    <input type="text" name="first" value=""><br><br>
     <input type="submit" value="Find the Mean!">
     {% if result %}
     <p>
@@ -48,13 +38,8 @@ Enter the numbers<br>
     </p>
     {% endif %}
 </form>
+
 <body bgcolor="#2980b9">
-    
 <a href="#" target="_top" class="toptaker"> <img src="static/toptaker.png"> </a>
-
-{#    {%   for i in range(5) %}#}
-{#        <label name='result'>Answer is: {{ result }}<br></label>#}
-{#    {% endfor %}#}
-
 </body>
 </html>
